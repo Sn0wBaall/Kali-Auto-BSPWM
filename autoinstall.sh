@@ -72,6 +72,7 @@ else
   cp -r .zshrc ~
   sudo cp -r nvim /opt
 
+  cd ~/Downloads; rm -rf {bspwm,sxhkd,picom,rofi,rofi-themes-collection,Wallpapers}
 
   echo -e "\n${ByellowColour}[!] Restarting the system${endColour}\n"
   sleep 2
