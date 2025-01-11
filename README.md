@@ -15,7 +15,7 @@ Some settings were taken from [hack4u](https://hack4u.io) from the [linux custom
 
 This is how BSPWM looks like after installation:
 
-![[Images/Image1.png]]
+![Alt text](Images/Image1.png)
 
 
 
