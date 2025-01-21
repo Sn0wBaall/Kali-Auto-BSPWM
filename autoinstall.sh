@@ -53,7 +53,7 @@ else
 
   cd ~/Downloads/bspwm; make; sudo make install
   cd ~/Downloads/sxhkd; make; sudo make install
-  cd ~/Downloads/picom; meson setup --buildtype=release build; ninja -C build; ninja -C build install
+  cd ~/Downloads/picom; sudo meson setup --buildtype=release build; ninja -C build; yes|ninja -C build install
   cd ~/Downloads/rofi; ./setup.sh
   cd ~/Downloads/rofi-themes-collection; mkdir -p ~/.local/share/rofi/themes/; cp themes/* ~/.local/share/rofi/themes/
   cd ~/Downloads/Wallpapers; ./setup.sh
