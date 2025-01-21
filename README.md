@@ -1,5 +1,14 @@
 ## Kali BSPWM auto install
 
+| OS         | [KALI](https://www.kali.org/)                                                                  |
+| ---------- | ---------------------------------------------------------------------------------------------- |
+| WM         | [BSPWM](https://github.com/baskerville/bspwm)                                                  |
+| Bar        | [Polybar](https://github.com/polybar/polybar)                                                  |
+| Menu       | [Rofi](https://github.com/davatorium/rofi)                                                     |
+| Compositor | [Picom](https://github.com/yshui/picom)                                                        |
+| Terminal   | [Kitty](https://github.com/kovidgoyal/kitty)                                                   |
+| Shell      | [zsh](https://github.com/zsh-users/zsh) whith [p10k](https://github.com/romkatv/powerlevel10k) |
+
 ---
 
 Please, upgrade the system before execute the script:
