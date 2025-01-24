@@ -26,6 +26,7 @@ This is how BSPWM looks like after installation:
 
 ![Alt text](Images/Image1.png)
 
+Nvim is not installed, but Nvchad is. If you want install nvim here is the [link](https://github.com/neovim/neovim)
 
 
 
