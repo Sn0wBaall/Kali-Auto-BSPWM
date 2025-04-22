@@ -25,7 +25,7 @@ BgrayColour="\e[1;37m"
 dir=$(pwd)
 
 if [ $(id -u) == 0 ];then
-  
+
   echo -e "\n${BredColour}[!] Please execute the script without root${endColour}\n"
 
 else
@@ -38,7 +38,7 @@ else
 
   echo -e "\n${BgreenColour}[+]${endColour}${grayColour} Installing necessary programs${endColour}\n"
 
-  sudo apt install -y kitty rofi moreutils feh sxhkd bspwm i3lock-fancy flameshot tty-clock cmake polybar cargo; cargo install lsd bat
+  sudo apt install -y kitty rofi moreutils feh picom sxhkd bspwm i3lock-fancy flameshot tty-clock cmake polybar lsd cargo; cargo install bat
 
   echo -e "\n${BgreenColour}[+]${endColour}${grayColour} Cloning necessary repositories${endColour}\n"
 
@@ -46,7 +46,6 @@ else
 
   git clone https://github.com/baskerville/bspwm
   git clone https://github.com/baskerville/sxhkd
-  git clone https://github.com/yshui/picom
   git clone https://github.com/adi1090x/rofi
   git clone https://github.com/lr-tech/rofi-themes-collection
   git clone https://github.com/sn0wbaall/Wallpapers
@@ -55,7 +54,6 @@ else
 
   cd ~/Downloads/bspwm; make; sudo make install
   cd ~/Downloads/sxhkd; make; sudo make install
-  cd ~/Downloads/picom; meson setup --buildtype=release build; ninja -C build; yes|ninja -C build install
   cd ~/Downloads/rofi; ./setup.sh
   cd ~/Downloads/rofi-themes-collection; mkdir -p ~/.local/share/rofi/themes/; cp themes/* ~/.local/share/rofi/themes/
   cd ~/Downloads/Wallpapers; ./setup.sh
