@@ -1,37 +1,22 @@
-## Kali BSPWM auto install
 
-| OS         | [KALI](https://www.kali.org/)                                                                  |
-| ---------- | ---------------------------------------------------------------------------------------------- |
-| WM         | [BSPWM](https://github.com/baskerville/bspwm)                                                  |
-| Bar        | [Polybar](https://github.com/polybar/polybar)                                                  |
-| Menu       | [Rofi](https://github.com/davatorium/rofi)                                                     |
-| Compositor | [Picom](https://github.com/yshui/picom)                                                        |
-| Terminal   | [Kitty](https://github.com/kovidgoyal/kitty)                                                   |
-| Shell      | [zsh](https://github.com/zsh-users/zsh) whith [p10k](https://github.com/romkatv/powerlevel10k) |
+This repository takes wallpapers from [gh0stzk](https://github.com/gh0stzk/dotfiles), and other wallpapers from this page https://wallpapercave.com.
 
 ---
+## Installation
 
-Please, upgrade the system before execute the script:
-
-```bash
-sudo apt update
-sudo apt upgrade -y
+``` 
+chmod 755 setup.sh
+./setup.sh
 ```
 
-This autoinstall now only has one theme that is inspired by rei, but for future updates I plan to add more themes.
+The wallpapers will be in ~/Desktop/Wallpapers, in this directory there will be two files "browser.sh" and a directory called "WP" in which the wallpapers will be located.
 
-Some settings were taken from [hack4u](https://hack4u.io) from the [linux customization course](https://hack4u.io/cursos/personalizacion-de-entorno-en-linux/).
+![Alt text](Images/image1.png)
 
-This is how BSPWM looks like after installation:
+The file "browser.sh" is a browser, if you execute this script you can search for the wallpapers.
 
-![Alt text](Images/Image1.png)
+![Alt text](Images/image2.png)
 
-Nvim is not installed, but Nvchad is. If you want install nvim here is the [link](https://github.com/neovim/neovim)
+This is the view of when the scrip shows you the image.
 
-
-
-
-
-
-
-
+![Alt text](Images/image3.png)
