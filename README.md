@@ -1,22 +1,13 @@
+his repository takes wallpapers from [gh0stzk](https://github.com/gh0stzk/dotfiles), and other wallpapers from this page https://wallpapercave.com
 
-This repository takes wallpapers from [gh0stzk](https://github.com/gh0stzk/dotfiles), and other wallpapers from this page https://wallpapercave.com.
+After cloning the repository we will see that inside there are several files, among them there will be a script called **setup.sh** that will move the wallpapers folder to our desktop as shown in the image:
 
----
-## Installation
+![Image1](Images/image1.png)
 
-``` 
-chmod 755 setup.sh
-./setup.sh
-```
+In the wallpapers directory located in **~/Desktop/Wallpapers** we are going to find a directory and a script, the "**WP**" directory is where the wallpapers are stored and the script **browser.sh** as its name indicates is a script that helps us to search the wallpapers as shown in the image:
 
-The wallpapers will be in ~/Desktop/Wallpapers, in this directory there will be two files "browser.sh" and a directory called "WP" in which the wallpapers will be located.
-
-![Alt text](Images/image1.png)
-
-The file "browser.sh" is a browser, if you execute this script you can search for the wallpapers.
-
-![Alt text](Images/image2.png)
+![Image2](Images/image2.png)
 
 This is the view of when the scrip shows you the image.
 
-![Alt text](Images/image3.png)
+![Image3](Images/image3.png)
