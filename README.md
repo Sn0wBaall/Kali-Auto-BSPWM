@@ -1,13 +1,29 @@
-his repository takes wallpapers from [gh0stzk](https://github.com/gh0stzk/dotfiles), and other wallpapers from this page https://wallpapercave.com
+## Kali BSPWM auto install
 
-After cloning the repository we will see that inside there are several files, among them there will be a script called **setup.sh** that will move the wallpapers folder to our desktop as shown in the image:
+| OS         | [KALI](https://www.kali.org/)                                                                  |
+| ---------- | ---------------------------------------------------------------------------------------------- |
+| WM         | [BSPWM](https://github.com/baskerville/bspwm)                                                  |
+| Bar        | [Polybar](https://github.com/polybar/polybar)                                                  |
+| Menu       | [Rofi](https://github.com/davatorium/rofi)                                                     |
+| Compositor | [Picom](https://github.com/yshui/picom)                                                        |
+| Terminal   | [Kitty](https://github.com/kovidgoyal/kitty)                                                   |
+| Shell      | [zsh](https://github.com/zsh-users/zsh) whith [p10k](https://github.com/romkatv/powerlevel10k) |
 
-![Image1](Images/image1.png)
+---
 
-In the wallpapers directory located in **~/Desktop/Wallpapers** we are going to find a directory and a script, the "**WP**" directory is where the wallpapers are stored and the script **browser.sh** as its name indicates is a script that helps us to search the wallpapers as shown in the image:
+Please, upgrade the system before execute the script:
 
-![Image2](Images/image2.png)
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
 
-This is the view of when the scrip shows you the image.
+This autoinstall now only has one theme that is inspired by rei, but for future updates I plan to add more themes.
 
-![Image3](Images/image3.png)
+Some settings were taken from [hack4u](https://hack4u.io) from the [linux customization course](https://hack4u.io/cursos/personalizacion-de-entorno-en-linux/).
+
+This is how BSPWM looks like after installation:
+
+![Alt text](Images/Image1.png)
+
+Nvim is not installed, but Nvchad is. If you want install nvim here is the [link](https://github.com/neovim/neovim)
